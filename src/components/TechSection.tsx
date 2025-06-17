@@ -58,7 +58,7 @@ const TechSection = () => {
     <div className="mb-16 animate-fade-in" style={{ animationDelay: '800ms' }}>
       <h3 className="text-2xl md:text-3xl font-bold text-white mb-8">
         <span className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-          Technologies I Master
+          Tecnologias que Domino
         </span>
       </h3>
       

@@ -61,22 +61,30 @@ const Index = () => {
           <TechSection />
 
           {/* Projects Section */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 max-w-4xl mx-auto">
-            <ProjectButton 
-              title="AppBarba" 
-              url="https://appbarba.vercel.app/" 
-              delay={1200}
-            />
-            <ProjectButton 
-              title="AgendaNails" 
-              url="https://agendanails.vercel.app/" 
-              delay={1400}
-            />
-            <ProjectButton 
-              title="IDFisioSystem" 
-              url="https://idfisiosystem.vercel.app/login" 
-              delay={1600}
-            />
+          <div className="mb-16 animate-fade-in" style={{ animationDelay: '1000ms' }}>
+            <h3 className="text-2xl md:text-3xl font-bold text-white mb-8">
+              <span className="bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
+                Meus Projetos
+              </span>
+            </h3>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <ProjectButton 
+                title="AppBarba" 
+                url="https://appbarba.vercel.app/" 
+                delay={1200}
+              />
+              <ProjectButton 
+                title="AgendaNails" 
+                url="https://agendanails.vercel.app/" 
+                delay={1400}
+              />
+              <ProjectButton 
+                title="IDFisioSystem" 
+                url="https://idfisiosystem.vercel.app/login" 
+                delay={1600}
+              />
+            </div>
           </div>
 
           {/* Contact Section */}
