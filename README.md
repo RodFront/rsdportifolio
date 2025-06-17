@@ -21,4 +21,4 @@ cd rsdportifolio
 npm install
 
 # Passo 4: Inicie o servidor de desenvolvimento
-npm run dev
+npm run  dev
