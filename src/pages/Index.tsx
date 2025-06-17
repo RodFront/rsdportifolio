@@ -2,6 +2,7 @@
 import React from 'react';
 import ProjectButton from '../components/ProjectButton';
 import ContactButton from '../components/ContactButton';
+import TechSection from '../components/TechSection';
 
 const Index = () => {
   return (
@@ -46,22 +47,25 @@ const Index = () => {
             </p>
           </div>
 
+          {/* Tech Section */}
+          <TechSection />
+
           {/* Projects Section */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 max-w-4xl mx-auto">
             <ProjectButton 
               title="AppBarba" 
               url="https://appbarba.vercel.app/" 
-              delay={800}
+              delay={1200}
             />
             <ProjectButton 
               title="AgendaNails" 
               url="https://agendanails.vercel.app/" 
-              delay={1000}
+              delay={1400}
             />
             <ProjectButton 
               title="IDFisioSystem" 
               url="https://idfisiosystem.vercel.app/login" 
-              delay={1200}
+              delay={1600}
             />
           </div>
 
@@ -71,20 +75,20 @@ const Index = () => {
               type="github" 
               url="http://github.com/RodFront" 
               text="GitHub" 
-              delay={1400}
+              delay={1800}
             />
             <ContactButton 
               type="whatsapp" 
               url="https://wa.me/5592981196236" 
               text="(92) 98119-6236" 
-              delay={1600}
+              delay={2000}
             />
           </div>
 
           {/* Glassmorphism Footer */}
-          <div className="mt-16 p-6 rounded-2xl bg-glass-gradient backdrop-blur-sm border border-white/10 animate-fade-in" style={{ animationDelay: '1800ms' }}>
+          <div className="mt-16 p-6 rounded-2xl bg-glass-gradient backdrop-blur-sm border border-white/10 animate-fade-in" style={{ animationDelay: '2200ms' }}>
             <p className="text-gray-400 text-sm">
-              Desenvolvido com React, TypeScript e Tailwind CSS
+              Developed by Rodrigo Souza
             </p>
           </div>
         </div>
